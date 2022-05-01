@@ -2,7 +2,7 @@
 *Assumes a working jupyter environment in VSCode*
 
 ### Start Server
-
+Unfortunately due to the fact that raw sockets need elevated privileges, we have to run the notebook-server as root.
 ```
 sudo su
 jupyter notebook --autoreload --allow-root --no-browser
