@@ -3,8 +3,9 @@
 
 ### Start Server
 Unfortunately due to the fact that raw sockets need elevated privileges, we have to run the notebook-server as root.
-```
+```bash
 sudo su
+pip3 install jupyter #if not already accessible as root 
 jupyter notebook --autoreload --allow-root --no-browser
 ```
 
